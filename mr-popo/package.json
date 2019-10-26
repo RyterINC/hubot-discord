@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "Ryter, Jayson <Jayson.Ryter@aspect.com>",
-  "description": "Discord helper bot",
+  "description": "Helper robot for Auh! Discord",
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
