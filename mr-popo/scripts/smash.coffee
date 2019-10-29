@@ -12,5 +12,5 @@ images = [
   ]
 
 module.exports = (robot) ->
-  robot.hear /smash/i, (msg) ->
-    msg.send msg.random images
+  robot.hear /smash[?]/i, (msg) ->
+    msg.send "Did someone say SMASH!?" + msg.random images
